@@ -14,3 +14,9 @@ if third_number < first_number and third_number < second_number and second_numbe
     print(third_number, second_number, first_number)
 if first_number < second_number and third_number < second_number:
     print(first_number, third_number, second_number)
+if second_number == third_number and second_number < first_number:
+    print(second_number, third_number, first_number)
+if first_number == second_number and third_number > second_number:
+    print(first_number, second_number, third_number)
+if first_number == second_number and third_number < second_number:
+    print(third_number, first_number, second_number )
