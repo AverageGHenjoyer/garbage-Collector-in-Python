@@ -1,4 +1,3 @@
-
 total = 0
 grade = 0
 grade_counter = 0
