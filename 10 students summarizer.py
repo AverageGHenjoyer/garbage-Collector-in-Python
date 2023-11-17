@@ -24,5 +24,5 @@ while total != 10:
         print("Wrong answer! You need to provide 1 or 2.")
 print(f"Passed: {passes}\n"
       f"Failed: {failures}")
-if passes >= 8:
-    print("Bonus for the instructor!")
+if passes > 8:
+    print("Bonus to instructor!")
