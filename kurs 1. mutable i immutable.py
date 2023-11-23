@@ -1,5 +1,5 @@
 days = ["mon", "tue", "wed", "thur", "fri", "sat", "sun"]
 workdays = days.copy()
-workdays.pop()
-workdays.pop()
+workdays.remove("sat")
+workdays.remove("sun")
 print(workdays)
